@@ -1,0 +1,42 @@
+name: 미세먼지 데이터 갱신
+
+on:
+  schedule:
+    # 원본(에어코리아)은 매시 정각 이후 순차 반영되므로 매시 25분에 수집한다.
+    # cron 은 UTC 기준이지만 매시 실행이라 시간대와 무관하다.
+    - cron: '25 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-air
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 대기오염정보 수집
+        env:
+          SERVICE_KEY: ${{ secrets.AIRKOREA_SERVICE_KEY }}
+        run: node scripts/fetch-air.mjs
+
+      - name: 변경분 커밋
+        run: |
+          if git diff --quiet -- data/air.json; then
+            echo "변경 없음 — 커밋 생략"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/air.json
+          git commit -m "chore(data): 미세먼지 데이터 갱신 $(date -u +'%Y-%m-%dT%H:%MZ')"
+          git push
