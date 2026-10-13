@@ -1,36 +1,36 @@
 {
-  "dataTime": "2026-10-13 12:00",
-  "fetchedAt": "2026-10-13T03:40:10.485Z",
+  "dataTime": "2026-10-14 04:00",
+  "fetchedAt": "2026-10-13T19:23:21.380Z",
   "stationCount": 672,
   "source": "한국환경공단 에어코리아 대기오염정보 (공공데이터포털)",
   "regions": {
     "서울": {
-      "pm10": 21.6,
-      "pm25": 13.4,
+      "pm10": 54.4,
+      "pm25": 38.3,
       "stations": 40,
-      "pm10Stations": 36,
-      "pm25Stations": 36
+      "pm10Stations": 40,
+      "pm25Stations": 40
     },
     "부산": {
-      "pm10": 20.2,
-      "pm25": 9.9,
+      "pm10": 23.3,
+      "pm25": 15.4,
       "stations": 35,
-      "pm10Stations": 34,
-      "pm25Stations": 34
+      "pm10Stations": 35,
+      "pm25Stations": 35
     },
     "대구": {
-      "pm10": 21.5,
-      "pm25": 15.3,
+      "pm10": 29,
+      "pm25": 17.6,
       "stations": 26,
       "pm10Stations": 24,
-      "pm25Stations": 23
+      "pm25Stations": 25
     },
     "인천": {
-      "pm10": 24.1,
-      "pm25": 15.3,
+      "pm10": 42.9,
+      "pm25": 24.5,
       "stations": 43,
-      "pm10Stations": 39,
-      "pm25Stations": 38
+      "pm10Stations": 42,
+      "pm25Stations": 42
     },
     "광주": {
       "pm10": null,
@@ -40,60 +40,60 @@
       "pm25Stations": 0
     },
     "대전": {
-      "pm10": 10.4,
-      "pm25": 4.4,
+      "pm10": 55.3,
+      "pm25": 36.7,
       "stations": 15,
-      "pm10Stations": 14,
-      "pm25Stations": 14
+      "pm10Stations": 15,
+      "pm25Stations": 15
     },
     "울산": {
-      "pm10": 27.6,
-      "pm25": 15.3,
+      "pm10": 21.7,
+      "pm25": 12.9,
       "stations": 24,
-      "pm10Stations": 23,
-      "pm25Stations": 23
+      "pm10Stations": 24,
+      "pm25Stations": 24
     },
     "세종": {
-      "pm10": 10.5,
-      "pm25": 5.2,
+      "pm10": 58.8,
+      "pm25": 39,
       "stations": 6,
       "pm10Stations": 6,
       "pm25Stations": 6
     },
     "경기": {
-      "pm10": 17.7,
-      "pm25": 11.7,
+      "pm10": 50.1,
+      "pm25": 32.5,
       "stations": 126,
-      "pm10Stations": 113,
-      "pm25Stations": 110
+      "pm10Stations": 122,
+      "pm25Stations": 120
     },
     "강원": {
-      "pm10": 13.6,
-      "pm25": 7.3,
+      "pm10": 30.1,
+      "pm25": 17.5,
       "stations": 40,
-      "pm10Stations": 35,
-      "pm25Stations": 34
+      "pm10Stations": 40,
+      "pm25Stations": 40
     },
     "충북": {
-      "pm10": 7.9,
-      "pm25": 6.4,
+      "pm10": 42.6,
+      "pm25": 29.8,
       "stations": 34,
-      "pm10Stations": 29,
-      "pm25Stations": 30
+      "pm10Stations": 32,
+      "pm25Stations": 32
     },
     "충남": {
-      "pm10": 14.9,
-      "pm25": 8.6,
+      "pm10": 58.4,
+      "pm25": 35.3,
       "stations": 54,
       "pm10Stations": 49,
       "pm25Stations": 49
     },
     "전북": {
-      "pm10": 13,
-      "pm25": 6.5,
+      "pm10": 47.3,
+      "pm25": 28.5,
       "stations": 48,
-      "pm10Stations": 44,
-      "pm25Stations": 43
+      "pm10Stations": 46,
+      "pm25Stations": 47
     },
     "전남": {
       "pm10": null,
@@ -103,25 +103,25 @@
       "pm25Stations": 0
     },
     "경북": {
-      "pm10": 23.2,
-      "pm25": 13.9,
+      "pm10": 29.8,
+      "pm25": 15.9,
       "stations": 53,
-      "pm10Stations": 52,
-      "pm25Stations": 50
+      "pm10Stations": 53,
+      "pm25Stations": 51
     },
     "경남": {
-      "pm10": 17,
-      "pm25": 9.8,
+      "pm10": 23.4,
+      "pm25": 13,
       "stations": 50,
-      "pm10Stations": 47,
-      "pm25Stations": 47
+      "pm10Stations": 49,
+      "pm25Stations": 48
     },
     "제주": {
-      "pm10": 12.5,
-      "pm25": 5.5,
+      "pm10": 31.4,
+      "pm25": 11.8,
       "stations": 14,
-      "pm10Stations": 13,
-      "pm25Stations": 12
+      "pm10Stations": 14,
+      "pm25Stations": 13
     }
   }
 }
